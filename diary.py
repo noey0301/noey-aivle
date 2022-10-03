@@ -1,5 +1,5 @@
 import streamlit as st
-
+from PIL import Image
 st.title('어느 하루')
 for i in range(0,3):
     st.markdown('\n')
@@ -9,10 +9,17 @@ if st.button('김연빈의 잡생각 모음집'):
     tab1,tab2,tab3=st.tabs(['나미일','2차 회식','.'])
     with tab1:
         st.subheader('나.미.일')
-#         from PIL import Image
+        def main() :
+    
+            img = Image.open('미프.jpg')
+            st.image(img)
+
+        if __name__ == "__main__" :
+            main()
+
 #         image1 = Image.open('미프.jpg')
         
-        st.image('https://postfiles.pstatic.net/MjAyMjEwMDNfMjE0/MDAxNjY0NzcwODUyMzgz.kIVVfvkhONtc0DVSPwWVYC2B6xWP2QLF6WIeN9CoUN4g.GRkZnOFl1RAiXkwM53IO7PboyGh8xX17ErQI7Y1IGBog.JPEG.cutybiny/20221002_193459.jpg?type=w773')
+#         st.image('')
         
         st.text('''이번 미프 3차에서 1등을 했다.
 매일 하루도 쉬지않고 공부를 했기에
