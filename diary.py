@@ -8,11 +8,11 @@ if st.button('김연빈의 잡생각 모음집'):
 
     tab1,tab2,tab3=st.tabs(['나미일','2차 회식','.'])
     with tab1:
-#         st.subheader('나.미.일')
+        st.subheader('나.미.일')
 #         from PIL import Image
 #         image1 = Image.open('미프.jpg')
         
-#         st.image(image1)
+        st.image('https://postfiles.pstatic.net/MjAyMjEwMDNfMjE0/MDAxNjY0NzcwODUyMzgz.kIVVfvkhONtc0DVSPwWVYC2B6xWP2QLF6WIeN9CoUN4g.GRkZnOFl1RAiXkwM53IO7PboyGh8xX17ErQI7Y1IGBog.JPEG.cutybiny/20221002_193459.jpg?type=w773')
         
         st.text('''이번 미프 3차에서 1등을 했다.
 매일 하루도 쉬지않고 공부를 했기에
@@ -41,7 +41,7 @@ train,test_dataset을 1간동안 바라봤다.
 #         from PIL import Image
 #         image = Image.open('20221002_193459.jpg')
 #         image=image.rotate(180)
-#         st.image(image)
+        st.image('https://postfiles.pstatic.net/MjAyMjEwMDNfMjE0/MDAxNjY0NzcwODUyMzgz.kIVVfvkhONtc0DVSPwWVYC2B6xWP2QLF6WIeN9CoUN4g.GRkZnOFl1RAiXkwM53IO7PboyGh8xX17ErQI7Y1IGBog.JPEG.cutybiny/20221002_193459.jpg?type=w773')
         st.text('''2차 3반 회식을 진행했습니다.
 처음엔 투표율도 저조했고
 수가 적으면 그냥 없애버리려고했으나
