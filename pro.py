@@ -2,8 +2,10 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pydeck as pdk
-matplotlib.use('Agg')
+
 import matplotlib.pyplot as plt
+import matplotlib
+matplotlib.use('Agg')
 from PIL import Image
 
 stop = "stop.png"
