@@ -9,8 +9,8 @@ import webbrowser
 stop = "stop.png"
 come = "come.png"
 empty= "empty.png"
-img1 = Image.open(stop).convert('RGB')
-img2 = Image.open(come).convert('RGB')
+img1 = Image.open(stop)
+img2 = Image.open(come)
 img3 = Image.open(empty)
 
 def main():
