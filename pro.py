@@ -9,9 +9,9 @@ import webbrowser
 stop = "stop.png"
 come = "come.png"
 empty= "empty.png"
-img1 = Image.open(stop,'rb')
-img2 = Image.open(come,'rb')
-img3 = Image.open(empty,'rb')
+# img1 = Image.open(stop,'rb')
+# img2 = Image.open(come,'rb')
+# img3 = Image.open(empty,'rb')
 
 def main():
     st.image('logo.png')
