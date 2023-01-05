@@ -15,7 +15,7 @@ img3 = Image.open(empty).convert('RGB')
 
 def main():
     st.image('logo.png')
-    df=pd.read_csv('df.csv')
+    df=pd.read_csv('df.csv',encoding='cp949')
     df['인구']=df['인구']/10
     df1=df.iloc[::2,:]
     df2=df.iloc[1::2,:]
@@ -74,7 +74,7 @@ def 당산():
     from datetime import datetime
     df3=pd.read_csv('./10.31/당산.csv',encoding='cp949')
     df3['사용일자'].astype('str')
-    df=pd.read_csv('df.csv')
+    df=pd.read_csv('df.csv',encoding='cp949')
     
     
     number=st.number_input('시간을 입력하세요',min_value=5,max_value=23,value=5,step=1)
@@ -199,7 +199,7 @@ def 여의도():
     from datetime import datetime
     df3=pd.read_csv('./10.31/여의도.csv',encoding='cp949')
     df3['사용일자'].astype('str')
-    df=pd.read_csv('df.csv')
+    df=pd.read_csv('df.csv',encoding='cp949')
     
     
     number=st.number_input('시간을 입력하세요',min_value=5,max_value=24,value=5,step=1)
